@@ -9,7 +9,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
-  height: 100vh;
+  height: 120vh;
+  overflow: hidden;
 }
 
 body::before {
@@ -37,6 +38,12 @@ body::before {
 .login {
   font-family: arial;
   padding: 90px 0 0 0
+}
+
+@media (max-width: 376px) {
+  .login {
+    padding-top: 40px;
+  }
 }
 
 .login .logo {
