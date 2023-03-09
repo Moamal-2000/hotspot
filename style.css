@@ -37,13 +37,7 @@ body::before {
 
 .login {
   font-family: arial;
-  padding: 90px 0 0 0
-}
-
-@media (max-width: 376px) {
-  .login {
-    padding-top: 40px;
-  }
+  padding: 40px 0 0 0
 }
 
 .login .logo {
